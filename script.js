@@ -22,6 +22,8 @@ function setGradient() {
 		linearCss.textContent = gradient.style.background + ";";
 }
 
+linearCss.appendChild(document.createTextNode(setGradient()));
+
 color1.addEventListener('input', setGradient);
 
 color2.addEventListener('input', setGradient);
@@ -40,6 +42,8 @@ function setRadial() {
 
 		radialCss.textContent = radial.style.background + ";";
 }
+
+radialCss.appendChild(document.createTextNode(setRadial()));
 
 range1.addEventListener('input', setRadial);
 range2.addEventListener('input', setRadial);
