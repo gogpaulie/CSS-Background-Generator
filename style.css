@@ -5,7 +5,7 @@ body {
     text-transform: uppercase;
     letter-spacing: .5em;
     top: 15%;
-	background: linear-gradient(to right, red , yellow); /* Standard syntax */
+	background: rgb(207, 207, 207); /* Standard syntax */
 }
 
 h1 {
@@ -34,4 +34,15 @@ p {
     text-transform: none;
     letter-spacing: 0.01em;
 }
+.box {
+    height: 50vh;
+}
+#gradient {
+    background: linear-gradient(to right, red , yellow);
+}
 
+#radial {
+
+    background: radial-gradient(80% 40%, red, yellow);
+
+}
